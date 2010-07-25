@@ -25,14 +25,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 6E8D846710A0EA8900DB7C32 /* qrlib.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libqrlib.a */;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = qrlib;
 		};
 		6E8D846E10A0EA9600DB7C32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6E8D846710A0EA8900DB7C32 /* qrlib.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D /* qrlib */;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = qrlib;
 		};
 /* End PBXContainerItemProxy section */
@@ -274,7 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeffrey Verkoeyen";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -287,7 +287,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = qrui;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9FC7A556-FEE9-48A7-BBF5-6CC1D57B226B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				USER_HEADER_SEARCH_PATHS = "../qrlib/src/**";
 			};
 			name = Debug;
@@ -319,7 +319,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.0;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
